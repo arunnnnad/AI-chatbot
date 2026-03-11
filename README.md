@@ -28,19 +28,15 @@ Before running the application, ensure you have the following installed:
 
 ## Setup
 
-1.  Clone the repository:
 
-    ```bash
-    git clone https://github.com/yashkathe/AI-Chat-Bot-MERN.git
-    ```
 
-2.  Navigate to the project directory:
+1.  Navigate to the project directory:
 
     ```bash
     cd AI-Chat-Bot-MERN
     ```
 
-3.  Install dependencies for both the client and server:
+2.  Install dependencies for both the client and server:
 
     ```bash
     # Install frontend dependencies
@@ -52,7 +48,7 @@ Before running the application, ensure you have the following installed:
     npm install
     ```
 
-4.  Configure environment variables:
+3.  Configure environment variables:
 
     Modify the `.env.txt` file in the `backend` directory and add the following variables and rename it to `.env`:
 
@@ -61,7 +57,7 @@ Before running the application, ensure you have the following installed:
         MONGODB_URI=your_mongodb_uri
         ```
 
-5.  Start the application:
+4.  Start the application:
 
     ```bash
     # Start the client (in the frontend directory)
